@@ -45,8 +45,8 @@ var projects = {
 var bio={
     "name":"Anuradha Ohm",
     "role":"Android Developer",
-    "welcomeMessage": "Love to be an Android Developer and earn something :)",
-    "biopic": "images/Anu.png ",
+    "welcomeMessage": "",
+    "biopic": "",
     "contacts": {
         "mobile number": "415-205-6988 ",
         "email address": "anoo_radha@outlook.com",
@@ -59,7 +59,7 @@ var bio={
         "stackoverflow url":"http://stackoverflow.com/users/6616489/anoo-radha",
         "location": "Atlanta, GA "
     },
-    "skills": ["Android ","Java ","C ","C++ ","HTML ","CSS ","Javascript"],
+    "skills": "",
     "display":function(){
         var formattedName = HTMLheaderName.replace("%data%", bio.name);
         var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
@@ -83,12 +83,12 @@ var bio={
         $("#topContacts").append(HTMLlocation.replace("%data%", bio.contacts.location));
         var formattedPic = HTMLbioPic.replace("%data%", bio.biopic);
         var formattedWelcomeMsg = HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage);
-        $("#header").append(formattedPic).append(formattedWelcomeMsg);
-        $("#header").append(HTMLskillsStart);
-        bio.skills.forEach(function(current_val){
-            var formattedSkills = HTMLskills.replace("%data%", current_val);
-            $("#header").append(formattedSkills);
-        });
+        // $("#header").append(formattedPic).append(formattedWelcomeMsg);
+        // $("#header").append(HTMLskillsStart);
+        // bio.skills.forEach(function(current_val){
+        //     var formattedSkills = HTMLskills.replace("%data%", current_val);
+        //     $("#header").append(formattedSkills);
+        // });
     }
 };
 

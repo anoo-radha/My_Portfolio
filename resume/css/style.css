@@ -26,6 +26,7 @@ h6 {
 
 h1 {
   font-size: 40px;
+  font-weight: 500;
   color: #f5a623;
   line-height: 48px;
   display: inline;
@@ -113,7 +114,7 @@ a {
 }
 
 .orange-text {
-  color: #f5ae23;
+  color: #F5C058;
 }
 .green-text {
   color: #a4c639;

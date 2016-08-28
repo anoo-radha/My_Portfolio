@@ -26,7 +26,6 @@ var bio={
         // $("#header").append(HTMLlinkedIn.replace("%data%", bio.contacts["linkedIn"])
         //      .replace("%content%", bio.contacts["linkedIn url"]));
         // $("#header").append(HTMLblog.replace("%data%", bio.blog));
-        $("#header").append(HTMLlocation.replace("%data%", bio.contacts.location));
     }
 };
 

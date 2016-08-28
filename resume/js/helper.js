@@ -7,16 +7,16 @@ This file contains all of the code running in the background that makes resumeBu
 HTML strings.
 */
 var HTMLheaderName = '<h1 id="name">%data%  </h1>';
-var HTMLheaderRole = '<span class="green-text">%data%</span><hr>';
+var HTMLheaderRole = '<span class="white-text">%data%</span><hr>';
 
 var HTMLcontactGeneric = '<ul class="flex-item"><span class="orange-text">%contact%</span><span class="white-text">%data%</span></ul>';
 var HTMLmobile = '<ul class="flex-item"><span class="orange-text"><i class="fa fa-mobile" aria-hidden="true"></i></span><span class="white-text">%data%</span></ul>';
-var HTMLemail = '<ul class="flex-item"><span class="orange-text"><i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i></span><span class="white-text"><a target="_blank" href=%content%>%data%</a></span></ul>';
+var HTMLemail = '<ul class="flex-item"><span class="orange-text"><i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i></span><span><a target="_blank" href=%content%>%data%</a></span></ul>';
 var HTMLtwitter = '<ul class="flex-item"><span class="orange-text">twitter</span><span class="white-text">%data%</span></ul>';
-var HTMLgithub = '<ul class="flex-item"><span class="orange-text"><i class="fa fa-github" aria-hidden="true"></i></span><span class="white-text"><a target="_blank" href=%content%>%data%</a></span></ul>';
+var HTMLgithub = '<ul class="flex-item"><span class="orange-text"><i class="fa fa-github" aria-hidden="true"></i></span><span><a target="_blank" href=%content%>%data%</a></span></ul>';
 var HTMLblog = '<ul class="flex-item"><span class="orange-text">blog</span><span class="white-text">%data%</span></ul>';
-var HTMLlinkedIn = '<ul class="flex-item"><span class="orange-text"><i class="fa fa-linkedin" aria-hidden="true"></i></span><span class="white-text"><a target="_blank" href=%content%>%data%</a></span></ul>';
-var HTMLstackOverflow = '<ul class="flex-item"><span class="orange-text"><i class="fa fa-stack-overflow" aria-hidden="true"></i></span><span class="white-text"><a target="_blank" href=%content%>%data%</a></span></ul>';
+var HTMLlinkedIn = '<ul class="flex-item"><span class="orange-text"><i class="fa fa-linkedin" aria-hidden="true"></i></span><span><a target="_blank" href=%content%>%data%</a></span></ul>';
+var HTMLstackOverflow = '<ul class="flex-item"><span class="orange-text"><i class="fa fa-stack-overflow" aria-hidden="true"></i></span><span><a target="_blank" href=%content%>%data%</a></span></ul>';
 var HTMLlocation = '<ul class="flex-item"><span class="orange-text"><i class="fa fa-map-marker" aria-hidden="true"></i></span><span class="white-text">%data%</span></ul>';
 
 var HTMLbioPic = '<img src="%data%" class="biopic">';

@@ -4,84 +4,114 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Anu Portfolio</title>
+  <title>Anu's Portfolio</title>
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <script src="js/jquery-3.1.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </head>
   <body>
-  <div class=container>
-    <div class="row">
-      <div class="col-md-6">
-        <img class="title-logo cast_img" src="images/portfolio_black.png" alt="logo">
-      </div>
-      <div class="col-md-6 text-right text-uppercase" >
-        <h1 class="title-super text-thin" >Anuradha Ohm</h1>
-        <h3 >Android Developer</h3>
-        <nav>
-        <a href="resume/index.html">
-          <button type="button" class="btn btn-success">Resume</button></a>
-        <a href="contact/index.html">
-          <button type="button" class="btn btn-info">Contact Me</button></a>
-          </nav>
-      </div>
-    </div>
-    <div class"row">
-      <div class="col-md-12">
-        <hr>
-      </div>
-    </div>
-    <div class="row">
-    <div  class="col-md-12" >
-      <img id="header_nav" src="images/portfolio_image.png" alt="porfolio image" class="img-responsive image-fit">
-    </div>
-    </div>
-    <div class="row">
-    <br>
-    <div class="col-md-12">
-      <h2 class="text-muted">Featured Work</h2>
-    </div>
-    <br>
-    </div>
-    <div class="row text-center">
-    <div class="col-md-2 img-responsive">
-      </div>
-      <div class="col-md-3 col-md-4 col-xs-6 img-responsive">
-        <img src="images/Screenshot_stockhawk4.png" alt="StockHawk Project" class="img-responsive" data-toggle="modal" data-target="#StockHawk">
-        <h3>StockHawk</h3>
-        <p><a target="_blank" href="https://github.com/anoo-radha/StockHawk_App">Link to project</a></p>
-      </div>
-      <div class="col-md-2 img-responsive">
-      </div>
-      <div class="col-md-3 col-md-4 col-xs-6 img-responsive">
-        <img src="images/Screenshot_popmovies4.png" alt="PopularMovies Project" class="img-responsive"
-        data-toggle="modal" data-target="#PopularMovies">
-        <h3>PopularMovies</h3>
-        <p><a target="_blank" href="https://github.com/anoo-radha/PopularMovies_App">Link to project</a></p>
-      </div>
-    </div>
-    <br>
-    <div class="row text-center">
-    <div class="col-md-2 img-responsive">
-      </div>
-      <div class="col-md-3 col-md-4 col-xs-6 img-responsive">
-        <img src="images/Screenshot_sunshine5.png" alt="Sunshine Project" class="img-responsive" data-toggle="modal" data-target="#Sunshine">
-        <h3>Sunshine</h3>
-        <p><a target="_blank" href="https://github.com/anoo-radha/Sunshine_WeatherApp">Link to project</a></p>
-      </div>
-      <div class="col-md-2 img-responsive">
-      </div>
-      <div class="col-md-3 col-md-4 col-xs-6 img-responsive">
-        <img src="images/Screenshot_dhyana5.png" alt="Dhyana Project" class="img-responsive" data-toggle="modal" data-target="#Dhyana">
-        <h3>Dhyana</h3>
-        <p><a target="_blank" href="https://github.com/anoo-radha/Dhyana_App">Link to project</a></p>
-      </div>
-    </div>
-</div>
+  <header class="header top-row-bg">
+    <div class="container">
+      <div class="row row-fluid">
+        <div class="col-md-2">
+          <img class="title-logo cast_img img-responsive" src="images/Anu.png" alt="logo">
+        </div>
+        <div class="col-md-6 text-left " >
+          <h1 class="title-super" >Anuradha Ohm</h1>
+          <h4 >Android Developer</h4>
+          <ul class="social list-inline">
+             <li><a target="_blank" href="https://www.linkedin.com/in/anuradhao"><i class="fa fa-linkedin"></i></a></li>
+             <li><a target="_blank" href="http://stackoverflow.com/users/6616489/anoo-radha"><i class="fa fa-stack-overflow"></i></a></li>
+             <li class="last-item"><a target="_blank" href="https://github.com/anoo-radha"><i class="fa fa-github-alt"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 ">
+          <a href="resume/index.html">
+            <button type="button" class="btn btn-success">Resume</button></a>
+          <a href="contact/index.html">
+            <button type="button" class="btn btn-info">Contact Me</button></a>
+        </div>
+      </div><!-- row -->
+    </div> <!-- container -->
+  </header>
+
+    <div class="container sections-wrapper">
+        <div class="row">
+            <div class="primary col-md-8 col-sm-12 col-xs-12">
+               <section class="latest section">
+                    <div class="section-inner">
+                        <h2>Featured Works</h2>
+                        <div class="row text-center ">
+                          <div class="col-md-2 img-responsive">
+                          </div>
+                          <div class="col-md-4 col-xs-6 img-responsive">
+                            <img src="images/Screenshot_stockhawk4.png" alt="StockHawk Project" class="img-responsive" data-toggle="modal" data-target="#StockHawk">
+                            <h3>StockHawk</h3>
+                            <p><a target="_blank" href="https://github.com/anoo-radha/StockHawk_App">Link to project</a></p>
+                          </div>
+                          <div class="col-md-2 img-responsive">
+                          </div>
+                          <div class="col-md-4 col-xs-6 img-responsive">
+                            <img src="images/Screenshot_popmovies4.png" alt="PopularMovies Project" class="img-responsive" data-toggle="modal" data-target="#PopularMovies">
+                            <h3>PopularMovies</h3>
+                            <p><a target="_blank" href="https://github.com/anoo-radha/PopularMovies_App">Link to project</a></p>
+                          </div>
+                        </div>
+                        <br>
+                        <div class="row text-center ">
+                          <div class="col-md-2 img-responsive">
+                          </div>
+                          <div class="col-md-4 col-xs-6 img-responsive">
+                            <img src="images/Screenshot_sunshine5.png" alt="Sunshine Project" class="img-responsive" data-toggle="modal" data-target="#Sunshine">
+                            <h3>Sunshine</h3>
+                            <p><a target="_blank" href="https://github.com/anoo-radha/Sunshine_WeatherApp">Link to project</a></p>
+                          </div>
+                          <div class="col-md-2 img-responsive">
+                          </div>
+                          <div class="col-md-4 col-xs-6 img-responsive">
+                            <img src="images/Screenshot_dhyana5.png" alt="Dhyana Project" class="img-responsive" data-toggle="modal" data-target="#Dhyana">
+                            <h3>Dhyana</h3>
+                            <p><a target="_blank" href="https://github.com/anoo-radha/Dhyana_App">Link to project</a></p>
+                          </div>
+                        </div>
+                    </div><!--//section-inner-->
+                </section><!--//section-->
+            </div><!--//primary-->
+            <div class="secondary col-md-4 col-sm-12 col-xs-12">
+                 <aside class="info aside section">
+                    <div class="section-inner">
+                      <ul class="list-unstyled">
+                          <li class="flex-item"><i class="fa fa-map-marker" aria-hidden="true"></i> &ensp;Atlanta,GA</li>
+                            <br>
+                          <li class="flex-item"><i class="fa fa-envelope-o" aria-hidden="true"></i> &ensp;<a href="mailto:anoo_radha@outlook.com">anoo_radha@outlook.com</a></li>
+                        </ul>
+                    </div><!--//section-inner-->
+                </aside><!--//info aside-->
+
+                <aside class="skills aside section">
+                    <div class="section-inner">
+                        <h2>Skills</h2>
+                        <ul>
+                         <ul class="list-unstyled">
+                            <li> Android </li>
+                            <li> Java </li>
+                            <li> C </li>
+                            <li> C++</li>
+                            <li> Javascript </li>
+                            <li> HTML5, CSS3 </li>
+                         </ul></ul>
+                              <!-- <p><a class="more-link" href="#"><i class="fa fa-external-link"></i> More on Coderwall</a></p> -->
+                    </div><!--//section-inner-->
+                </aside><!--//skills aside-->
+            </div><!--//secondary-->
+        </div><!-- //row -->
+    </div><!--//masonry-->
+
 <!-- Modal -->
     <div class="modal fade" id="StockHawk" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
@@ -93,27 +123,30 @@
                     <div class="row">
                       <div class="col-xs-6 col-md-3 col-md-offset-1 img-responsive">
                         <img class="img-responsive" src="images/Screenshot_stockhawk1.png" />
-                        <ol style="visibility:hidden;"></ol></div>
-                    <div class="col-xs-6 col-md-3 img-responsive">
-                        <img class="img-responsive" src="images/Screenshot_stockhawk2.png" /></div>
-                    <div class="col-xs-6 col-md-3 img-responsive">
-                        <img class="img-responsive" src="images/Screenshot_stockhawk3.png" /></div>
-                </div>
-                    Wanna get updates on stock market? This Android app allows users to access real-time stock information. The app utilizes <a target="_blank" href="https://developer.yahoo.com/yql/console/">Yahoo quotes API</a> to display stock quotes. Graph is drawn using <a target="_blank" href="https://github.com/PhilJay/MPAndroidChart">MPAndroidCharts</a>. It requires internet connectivity to display the current stock rate.
-                    Features:
-                      <li>Add stocks to keep track of</li>
-                      <li>Remove stock with a swipe</li>
-                      <li>Graphical stock price trend for the past week or month</li>
-                      <li>Widget to display stocks on Home Screen</li>
-                      <li>Layout mirroring support</li>
-                      <li>Accessible to sight-impaired by adding image descriptions</li>
-                      <li>Updates stock information every hour(using GCMTaskService)</li>
-
-<b>Implements:</b> <i>IntentService for background communication to content provider and API;  Share Action Provider; GCMTaskService;  RecyclerView;  AppWidgetProvider;  CursorAdapter;  AppBarLayout;  SharedPreferences;  RTL;  Accessibility; <a target="_blank" href="https://github.com/SimonVT/schematic"> Schematic library</a> for creating ContentProvider; <a target="_blank" href="https://github.com/makovkastar/FloatingActionButton">  FloatingActionButton  </a>; <a target="_blank" href="http://facebook.github.io/stetho/">  Stetho </a>.</i>
- This app is also implemented using AsyncQueryHandler <a target="_blank" href="https://github.com/anoo-radha/StockHawk_AsyncQueryHandler">Link to source</a>.
-<ol style="visibility:hidden;"></ol>
-This app was taken from a functional state to a production-ready state and submitted as a project for Android Developer Nanodegree program on Udacity.
-                </div>
+                        <ol style="visibility:hidden;"></ol>
+                      </div>
+                      <div class="col-xs-6 col-md-3 img-responsive">
+                        <img class="img-responsive" src="images/Screenshot_stockhawk2.png" />
+                      </div>
+                      <div class="col-xs-6 col-md-3 img-responsive">
+                        <img class="img-responsive" src="images/Screenshot_stockhawk3.png" />
+                      </div>
+                    </div>
+                    <p>Wanna get updates on stock market? This Android app allows users to access real-time stock information. The app utilizes <a target="_blank" href="https://developer.yahoo.com/yql/console/">Yahoo quotes API</a> to display stock quotes. Graph is drawn using <a target="_blank" href="https://github.com/PhilJay/MPAndroidChart">MPAndroidCharts</a>. It requires internet connectivity to display the current stock rate.<br>
+                    <b>Features:</b>
+                      <ul>
+                        <li>Add stocks to keep track of</li>
+                        <li>Remove stock with a swipe</li>
+                        <li>Graphical stock price trend for the past week or month</li>
+                        <li>Widget to display stocks on Home Screen</li>
+                        <li>Layout mirroring support</li>
+                        <li>Accessible to sight-impaired by adding image descriptions</li>
+                        <li>Updates stock information every hour(using GCMTaskService)</li>
+                      </ul>
+<b>Implements:</b> <em>IntentService for background communication to content provider and API;  Share Action Provider; GCMTaskService;  RecyclerView;  AppWidgetProvider;  CursorAdapter;  AppBarLayout;  SharedPreferences;  RTL;  Accessibility; <a target="_blank" href="https://github.com/SimonVT/schematic"> Schematic library</a> for creating ContentProvider; <a target="_blank" href="https://github.com/makovkastar/FloatingActionButton">  FloatingActionButton  </a>; <a target="_blank" href="http://facebook.github.io/stetho/">  Stetho </a>.</em><br>
+ This app is also implemented using AsyncQueryHandler <a target="_blank" href="https://github.com/anoo-radha/StockHawk_AsyncQueryHandler">Link to source</a>.<br>
+This app was taken from a functional state to a production-ready state and submitted as a project for Android Developer Nanodegree program on Udacity.</p>
+            </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
@@ -131,15 +164,19 @@ This app was taken from a functional state to a production-ready state and submi
                     <div class="row">
                       <div class="col-xs-6 col-md-3 col-md-offset-1 img-responsive">
                         <img class="img-responsive" src="images/Screenshot_popmovies1.png" />
-                        <ol style="visibility:hidden;"></ol></div>
-                    <div class="col-xs-6 col-md-3 img-responsive">
-                        <img class="img-responsive" src="images/Screenshot_popmovies2.png" /></div>
-                    <div class="col-xs-6 col-md-4 img-responsive">
-                        <img class="img-responsive" src="images/Screenshot_popmovies3.png" /></div>
+                        <ol style="visibility:hidden;"></ol>
+                      </div>
+                      <div class="col-xs-6 col-md-3 img-responsive">
+                        <img class="img-responsive" src="images/Screenshot_popmovies2.png" />
+                      </div>
+                      <div class="col-xs-6 col-md-4 img-responsive">
+                        <img class="img-responsive" src="images/Screenshot_popmovies3.png" />
+                      </div>
                 </div>
                     Searching for Movies? This Android app makes it easy to discover, search movies and mark them to your favorites. Each movies shows original title, movie poster, plot synopsis, user rating, release date, trailers and user reviews. It is compatible with all devices running on Ice Cream Sandwich and higher (API Level 15).
-                    This app fetches data from <a target="_blank" href="https://www.themoviedb.org/documentation/api">themoviedb API</a>, but is not endorsed or certified by TMDb. Favorited movies will be saved to the database (implemented using content provider), and will be viewable offline. However, As internet connectivity is required to establish connection to the movie database, the most popular and highest rated movies will not load without internet.
-                    Features:
+                    This app fetches data from <a target="_blank" href="https://www.themoviedb.org/documentation/api">themoviedb API</a>, but is not endorsed or certified by TMDb. Favorited movies will be saved to the database (implemented using content provider), and will be viewable offline. However, As internet connectivity is required to establish connection to the movie database, the most popular and highest rated movies will not load without internet.<br>
+                    <b>Features:</b>
+                    <ul>
                       <li>Movies search based on Popularity or Rating</li>
                       <li>Add/remove movie as favorite</li>
                       <li>Optimized app experience for tablet</li>
@@ -148,8 +185,9 @@ This app was taken from a functional state to a production-ready state and submi
                       <li>View user reviews</li>
                       <li>Image descriptions for accessibility readers</li>
                       <li>RTL support</li>
-<b>Implements:</b> <i>SyncAdapter; AsyncHander; SQLite database with custom Content Provider; CursorLoader; Preference Manager; Share Action Provider; FragmentManager; Intent; Shared Preferences; Activity lifecycle; HTTP requests, web APIs; Android Permissions; App navigation with Explicit Intents; GridView; ListView; Accessibility; <a target="_blank" href="http://jakewharton.github.io/butterknife/"> Butterknife </a>; <a target="_blank" href="https://github.com/pnikosis/materialish-progress"> Progress Wheel </a>; <a target="_blank" href="http://square.github.io/picasso/">Picasso </a>; Parcelable; <a target="_blank" href="http://facebook.github.io/stetho/">Stetho </a>.</i>
-<ol style="visibility:hidden;"></ol>
+                    </ul>
+<b>Implements:</b> <em>SyncAdapter; AsyncHander; SQLite database with custom Content Provider; CursorLoader; Preference Manager; Share Action Provider; FragmentManager; Intent; Shared Preferences; Activity lifecycle; HTTP requests, web APIs; Android Permissions; App navigation with Explicit Intents; GridView; ListView; Accessibility; <a target="_blank" href="http://jakewharton.github.io/butterknife/"> Butterknife </a>; <a target="_blank" href="https://github.com/pnikosis/materialish-progress"> Progress Wheel </a>; <a target="_blank" href="http://square.github.io/picasso/">Picasso </a>; Parcelable; <a target="_blank" href="http://facebook.github.io/stetho/">Stetho </a>.</em>
+<br>
 This app was submitted as a project for Android Developer Nanodegree program on Udacity.
                 </div>
                 <div class="modal-footer">
@@ -169,17 +207,21 @@ This app was submitted as a project for Android Developer Nanodegree program on 
                     <div class="row">
                       <div class="col-xs-6 col-md-2 col-md-offset-1 img-responsive">
                         <img class="img-responsive" src="images/Screenshot_sunshine1.png" />
-                        <ol style="visibility:hidden;"></ol></div>
-                    <div class="col-xs-6 col-md-2 img-responsive">
-                        <img class="img-responsive" src="images/Screenshot_sunshine2.png" /></div>
-                    <div class="col-xs-6 col-md-4 img-responsive">
+                        <ol style="visibility:hidden;"></ol>
+                      </div>
+                      <div class="col-xs-6 col-md-2 img-responsive">
+                        <img class="img-responsive" src="images/Screenshot_sunshine2.png" />
+                      </div>
+                      <div class="col-xs-6 col-md-4 img-responsive">
                         <img class="img-responsive" src="images/Screenshot_sunshine3.png" /></div>
                         <div class="col-xs-6 col-md-2 img-responsive">
-                        <img class="img-responsive" src="images/Screenshot_sunshine4.png" /></div>
+                        <img class="img-responsive" src="images/Screenshot_sunshine4.png" />
+                      </div>
                 </div>
                 Sunshine, a weather app that uses the <a target="_blank" href="https://home.openweathermap.org/">Open Weather API</a> to provide users with a 10 day forecast the user's preferred location. It is compatible with all devices running on Ice Cream Sandwich and higher (API Level 15).
-                As internet connectivity is required to establish connection to the <a target="_blank" href="https://home.openweathermap.org/">Open Weather </a>database.
-                Features:
+                As internet connectivity is required to establish connection to the <a target="_blank" href="https://home.openweathermap.org/">Open Weather </a>database.<br>
+                <b>Features:</b>
+                <ul>
                   <li>Sort the movies on the basis of Popularity and Rating</li>
                   <li>Optimized app experience for tablet</li>
                   <li>Rain, fog, snow and sleet alerts.</li>
@@ -187,15 +229,15 @@ This app was submitted as a project for Android Developer Nanodegree program on 
                   <li>Getting location using google maps</li>
                   <li>Rich Notifications</li>
                   <li>Wallpaper to reciprocate the weather</li>
-<b>Implements:</b> <i>SyncAdapter; Custom View creation; AppWidgetProvider; RecyclerView with ViewHolder and CardViews; SQLite database with custom Content Provider; Google ApI; User Interface and Layout managers; Cursor Loaders / CursorAdapters; PreferenceManager; NotificationManager; Parcelable; App navigation with Explicit Intents; Alarms; AsyncTask; ShareIntent; FragmentManager; <a target="_blank" href="https://github.com/romannurik/muzei/wiki/API">Muzei App</a> integration for wallpaper change; <a target="_blank" href="http://square.github.io/picasso/">Picasso </a>; <a target="_blank" href="http://facebook.github.io/stetho/">Stetho </a>.</i>
-<ol style="visibility:hidden;"></ol>
+                </ul>
+<b>Implements:</b> <em>SyncAdapter; Custom View creation; AppWidgetProvider; RecyclerView with ViewHolder and CardViews; SQLite database with custom Content Provider; Google ApI; User Interface and Layout managers; Cursor Loaders / CursorAdapters; PreferenceManager; NotificationManager; Parcelable; App navigation with Explicit Intents; Alarms; AsyncTask; ShareIntent; FragmentManager; <a target="_blank" href="https://github.com/romannurik/muzei/wiki/API">Muzei App</a> integration for wallpaper change; <a target="_blank" href="http://square.github.io/picasso/">Picasso </a>; <a target="_blank" href="http://facebook.github.io/stetho/">Stetho </a>.</em><br>
 This app was part of Android Developer Nanodegree program on Udacity.
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
             </div>
-        </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+      </div>
     </div>
 
     <div class="modal fade" id="Dhyana" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -208,21 +250,25 @@ This app was part of Android Developer Nanodegree program on Udacity.
                     <div class="row">
                       <div class="col-xs-6 col-md-3 col-md-offset-1 img-responsive">
                         <img class="img-responsive" src="images/Screenshot_dhyana1.png" />
-                        <ol style="visibility:hidden;"></ol></div>
-                    <div class="col-xs-6 col-md-3 img-responsive">
-                        <img class="img-responsive" src="images/Screenshot_dhyana2.png" /></div>
-                    <div class="col-xs-6 col-md-3 img-responsive">
-                        <img class="img-responsive" src="images/Screenshot_dhyana3.png" /></div>
-                </div>
-                    Meditate! This android application explains the benefits, how-to of meditation and has settings to do the meditation (like setting timer, tune and silencing the phone).
-                    Features:
-                      <li>Start and Stop timer</li>
+                        <ol style="visibility:hidden;"></ol>
+                      </div>
+                      <div class="col-xs-6 col-md-3 img-responsive">
+                        <img class="img-responsive" src="images/Screenshot_dhyana2.png" />
+                      </div>
+                      <div class="col-xs-6 col-md-3 img-responsive">
+                        <img class="img-responsive" src="images/Screenshot_dhyana3.png" />
+                      </div>
+                    </div>
+                    Meditate! This android application explains the benefits, how-to of meditation and has settings to do the meditation (like setting timer, tune and silencing the phone).<br>
+                    <b>Features:</b>
+                      <ul><li>Start and Stop timer</li>
                       <li>Select alarm tune</li>
                       <li>Silence the phone</li>
                       <li>Display Benefits in a Listview</li>
                       <li>Help page with options for sending any suggestions/comments</li>
                       <li>Share and Rate the App</li>
-<b>Implements:</b> <i>Intent; ArrayAdapter; AlertDialog; AudioManager; MediaPlayer; CountDownTimer; AppCompatActivity; Menu; SharedPreferences; Various Views and Layouts; Reusable strings; Toast</i>
+                      </ul>
+<b>Implements:</b> <em>Intent; ArrayAdapter; AlertDialog; AudioManager; MediaPlayer; CountDownTimer; AppCompatActivity; Menu; SharedPreferences; Various Views and Layouts; Reusable strings; Toast</em>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
