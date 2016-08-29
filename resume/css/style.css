@@ -62,24 +62,6 @@ h5 {
 
 }
 
-
-.date-text {
-  font-style: italic;
-  font-size: 14px;
-  color: #999;
-  line-height: 16px;
-  float: left;
-}
-
-.location-text {
-  font-style: italic;
-  font-size: 14px;
-  color: #999;
-  line-height: 16px;
-  float: right;
-
-}
-
 hr{
   border: 1px solid #ddd;
 }
@@ -97,6 +79,22 @@ a {
   /*display: block;*/
 }
 
+.date-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999;
+  line-height: 16px;
+  float: left;
+}
+
+.location-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999;
+  line-height: 16px;
+  float: right;
+
+}
 .welcome-message {
   font-style: italic;
   font-size: 18px;
@@ -120,8 +118,8 @@ a {
   color: #a4c639;
 }
 .title-text {
-  /*color: #1568A6;*/
-  color:#D2A678;
+  color: #1568A6;
+  /*color:#D2A678;*/
 }
 .white-text {
   font-weight: bold;
@@ -164,9 +162,17 @@ a {
 }
 
 ul {
-  list-style-type: none;
+  list-style: none;
 }
 
+li {
+    float:left;
+    padding-left: 50px;
+}
+/*li:before {
+    content: "• ";
+    color: #fff;
+}*/
 .biopic {
   float: left;
   padding: 10px;

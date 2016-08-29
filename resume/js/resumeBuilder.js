@@ -1,5 +1,15 @@
 // Build four JSONs, each one representing a different resume section.
 // JSONs are formatted correctly using JSONlint.com.
+var programming_skills={
+    "skills": ["Android","Java","C","C++","HTML5","Javascript"],
+    "display":function(){
+        $("#programmingSkills").append(HTMLprogrammingSkillsStart);
+        programming_skills.skills.forEach(function(current_val){
+            var formattedSkills = HTMLprogrammingSkills.replace("%data%", current_val);
+            $(".programmingSkills-entry").append(formattedSkills);
+        });
+    }
+};
 var work = {
     "jobs": [{
         "employer": "Soft Tech",
@@ -59,7 +69,7 @@ var bio={
         "stackoverflow url":"http://stackoverflow.com/users/6616489/anoo-radha",
         "location": "Atlanta, GA "
     },
-    "skills": "",
+    "skills": ["Android","Java","C","C++","HTML5, CSS","Javascript"],
     "display":function(){
         var formattedName = HTMLheaderName.replace("%data%", bio.name);
         var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
@@ -85,10 +95,10 @@ var bio={
         var formattedWelcomeMsg = HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage);
         // $("#header").append(formattedPic).append(formattedWelcomeMsg);
         // $("#header").append(HTMLskillsStart);
-        // bio.skills.forEach(function(current_val){
-        //     var formattedSkills = HTMLskills.replace("%data%", current_val);
-        //     $("#header").append(formattedSkills);
-        // });
+        bio.skills.forEach(function(current_val){
+            var formattedSkills = HTMLskills.replace("%data%", current_val);
+            $("#header").append(formattedSkills);
+        });
     }
 };
 
@@ -192,6 +202,7 @@ displayWork();
 bio.display();
 projects.display();
 education.display();
+programming_skills.display();
 
 // $("#mapDiv").append(googleMap);
 $('#main').append(internationalizeButton);

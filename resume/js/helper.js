@@ -23,7 +23,10 @@ var HTMLbioPic = '<img src="%data%" class="biopic">';
 var HTMLwelcomeMsg = '<span class="welcome-message"><br>%data%</span>';
 
 var HTMLskillsStart = '<h3 id="skills-h3">Skills at a Glance:</h3><ul id="skills" class="flex-column"></ul>';
-var HTMLskills = '<ul class="flex-item"><span class="white-text">%data%</span></ul>';
+var HTMLskills = '<ul><li class="flex-item"><span class="white-text">%data%</span></li></ul>';
+
+var HTMLprogrammingSkillsStart = '<div class="programmingSkills-entry"></div>';
+var HTMLprogrammingSkills = '<li class="flex-item"><span class="title-text">%data%</span></li>';
 
 var HTMLworkStart = '<div class="work-entry"></div>';
 var HTMLworkEmployer = '<div class="title-text">%data%';
